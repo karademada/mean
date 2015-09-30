@@ -2,7 +2,7 @@
 
 module.exports = {
   /*db: 'mongodb://' + (process.env.DB_PORT_27017_TCP_ADDR || 'localhost') + '/mean-prod',*/
-  db: 'mongodb://lazantsy:mohamad@ds045137.mongolab.com:45137/jany_mean',
+  db: 'mongodb://heroku_wlscsshg:mohamad@ds035633.mongolab.com:35633/heroku_wlscsshg',
   /**
    * Database options that will be passed directly to mongoose.connect
    * Below are some examples.
@@ -40,8 +40,8 @@ module.exports = {
     },
     landingPage: '/',
     facebook: {
-      clientID: 'APP_ID',
-      clientSecret: 'APP_SECRET',
+      clientID: '1515480425389476',
+      clientSecret: 'c2ad33ef0234fd61f33165bdb6c4303f',
       callbackURL: 'http://localhost:3000/api/auth/facebook/callback',
       enabled: false
     },
